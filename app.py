@@ -485,8 +485,6 @@ if page == "DATASET UPLOAD":
                                 {flight_ids_with_leaks}
                                 </h6>
                                 """, unsafe_allow_html=True)
-                            if st.button("See Recommendations"):
-                                st.session_state.page = "RECOMMENDATIONS" 
                         with col3:
                             st.empty()  
                     with colb:
